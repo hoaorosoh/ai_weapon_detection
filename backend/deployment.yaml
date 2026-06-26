@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: weapon-detection-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: weapon-detection
+  template:
+    metadata:
+      labels:
+        app: weapon-detection
+    spec:
+      containers:
+      - name: weapon-detection
+        image: localhost:5000/weapon-detection:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "2Gi"
+            cpu: "1"
+        # ADD THESE 3 LINES:
+        volumeMounts:
+        - mountPath: /dev/shm
+          name: dshm
+      
+      volumes:
+      - name: dshm
+        emptyDir:
+          medium: Memory

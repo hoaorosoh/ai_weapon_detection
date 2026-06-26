@@ -1,0 +1,96 @@
+Windows fatal exception: access violation
+
+[2026-04-21 19:32:07,690 E 4872 1936] (raylet.exe) agent_manager.cc:87: The raylet exited immediately because one Ray agent failed, agent_name = runtime_env_agent.
+The raylet fate shares with the agent. This can happen because
+- The version of `grpcio` doesn't follow Ray's requirement. Agent can segfault with the incorrect `grpcio` version. Check the grpcio version `pip freeze | grep grpcio`.
+- The agent failed to start because of unexpected error or port conflict. Read the log `cat /tmp/ray/session_latest/logs/{dashboard_agent|runtime_env_agent}.log`. You can find the log file structure here https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#logging-directory-structure.
+- The agent is killed by the OS (e.g., out of memory).
+Windows fatal exception: access violation
+
+Windows fatal exception: access violation
+
+Stack (most recent call first):
+  File "D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039 in main_loop
+  File "D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py", line 323 in <module>
+Windows fatal exception: Windows fatal exception: access violation
+
+access violation
+
+Windows fatal exception: Stack (most recent call first):
+access violation
+
+  File Stack (most recent call first):
+  File Stack (most recent call first):
+  File "D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039 in "D:\programs\python12\Lib\site-packages\ray\_private\worker.py""D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039 in , line 1039 in Windows fatal exception: access violation
+
+Stack (most recent call first):
+  File main_loop
+  File "D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line Windows fatal exception: access violation
+
+1039Stack (most recent call first):
+ in   File main_loop
+  File main_loop
+  File "D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039 in "D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"main_loop
+  File , line 323 in <module>
+Windows fatal exception: access violation
+
+"D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py", line 323 in Stack (most recent call first):
+  File <module>Windows fatal exception: 
+main_loop
+"access violation  File Windows fatal exception: access violation
+
+D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039 in Stack (most recent call first):
+
+
+Windows fatal exception: access violationStack (most recent call first):
+  File 
+
+  File "Stack (most recent call first):
+  File Windows fatal exception: access violationD:\programs\python12\Lib\site-packages\ray\_private\worker.py
+
+"""""D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"D:\programs\python12\Lib\site-packages\ray\_private\worker.py, line Stack (most recent call first):
+D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039 in Windows fatal exception: access violationmain_loop
+  File 1039 in   File D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"", line main_loop1039"
+, line 323 in D:\programs\python12\Lib\site-packages\ray\_private\worker.py"
+
+ in main_loop, line 
+  File Stack (most recent call first):
+  File 1039 in main_loop
+  File <module>"  File "D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039
+ in "D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"", line D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py323Windows fatal exception: , line Windows fatal exception: access violation in "access violation323D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"
+
+<module>
+, line 323 in <module>"Stack (most recent call first):
+
+
+  File  in Stack (most recent call first):
+main_loop  File 
+, line 323Windows fatal exception: access violation
+
+Stack (most recent call first):
+  File main_loop, line 323"<module>
+  File "Windows fatal exception: D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"D:\programs\python12\Lib\site-packages\ray\_private\worker.py" in , line <module>" in <module>
+"D:\programs\python12\Lib\site-packages\ray\_private\worker.py"
+
+Windows fatal exception: , line access violation
+1039, line 1039 in D:\programs\python12\Lib\site-packages\ray\_private\worker.py in 323 in 
+
+access violation
+
+"  File Stack (most recent call first):
+  File Stack (most recent call first):
+, line 1039 in   File <module>
+"D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039 in "D:\programs\python12\Lib\site-packages\ray\_private\worker.py", line 1039 in main_loop
+  File "D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"", line main_loop
+323 in <module>
+D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py"  File main_loop
+  File main_loop
+  File main_loop
+  File "D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py", line 323 in <module>
+, line 323 in <module>
+"D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py""D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py""D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py", line 323 in <module>
+, line 323 in <module>, line 323 in <module>
+
+"D:\programs\python12\Lib\site-packages\ray\_private\workers\default_worker.py", line 323 in <module>
+Windows fatal exception: access violation
+

@@ -1,0 +1,96 @@
+:job_id:01000000
+:actor_name:TrainController
+Requesting resources: {'GPU': 1} * 1
+Attempting to start training worker group of size 1 with the following resources: [{'GPU': 1}] * 1
+Started training worker group of size 1: 
+- (ip=127.0.0.1, pid=26720) world_rank=0, local_rank=0, node_rank=0
+Unable to allocate internal buffer.
+Traceback (most recent call last):
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 582, in deserialize_objects
+    obj = self._deserialize_object(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 431, in _deserialize_object
+    return self._deserialize_msgpack_data(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 375, in _deserialize_msgpack_data
+    msgpack_data, pickle5_data = split_buffer(data)
+                                 ^^^^^^^^^^^^^^^^^^
+  File "python\\ray\\includes/serialization.pxi", line 205, in ray._raylet.split_buffer
+  File "msgpack/_unpacker.pyx", line 372, in msgpack._cmsgpack.Unpacker.__init__
+MemoryError: Unable to allocate internal buffer.
+[FailurePolicy] RAISE
+  Source: worker group
+  Error count: 1 (max allowed: 0)
+Error: Training failed due to worker errors:
+[Rank 0 Error Snippet]:
+A worker health check failed.
+Worker info: Worker(
+  actor=Actor(RayTrainWorker, 5e4299f3d7e9c329f0e2223f01000000),
+  metadata=ActorMetadata(
+    hostname='LAPTOP-1J0L0NCB',
+    node_id='c3cbdd6057c292f64a39428fcc50c4ba56d44568632d12f174c84ec2',
+    node_ip='127.0.0.1',
+    pid=26720,
+    accelerator_ids={'GPU': ['0']},
+  ),
+  distributed_context=DistributedContext(world_rank=0, world_size=1, local_rank=0, local_world_size=1, node_rank=0),
+  log_file_path='C:\\Users\\aditya\\AppData\\Local\\Temp\\ray\\session_2026-04-21_19-03-55_269901_20668\\logs\\train\\ray-train-app-worker-e620ab1b08490de59c8c576eefbf58808288e0ae4678e9a52d3ecb03.log',
+)
+System error: Unable to allocate internal buffer.
+traceback: Traceback (most recent call last):
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 582, in deserialize_objects
+    obj = self._deserialize_object(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 431, in _deserialize_object
+    return self._deserialize_msgpack_data(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 375, in _deserialize_msgpack_data
+    msgpack_data, pickle5_data = split_buffer(data)
+                                 ^^^^^^^^^^^^^^^^^^
+  File "python\\ray\\includes/serialization.pxi", line 205, in ray._raylet.split_buffer
+  File "msgpack/_unpacker.pyx", line 372, in msgpack._cmsgpack.Unpacker.__init__
+MemoryError: Unable to allocate internal buffer.
+ray.train.WorkerGroupError: Training failed due to worker errors:
+[Rank 0 Error Snippet]:
+A worker health check failed.
+Worker info: Worker(
+  actor=Actor(RayTrainWorker, 5e4299f3d7e9c329f0e2223f01000000),
+  metadata=ActorMetadata(
+    hostname='LAPTOP-1J0L0NCB',
+    node_id='c3cbdd6057c292f64a39428fcc50c4ba56d44568632d12f174c84ec2',
+    node_ip='127.0.0.1',
+    pid=26720,
+    accelerator_ids={'GPU': ['0']},
+  ),
+  distributed_context=DistributedContext(world_rank=0, world_size=1, local_rank=0, local_world_size=1, node_rank=0),
+  log_file_path='C:\\Users\\aditya\\AppData\\Local\\Temp\\ray\\session_2026-04-21_19-03-55_269901_20668\\logs\\train\\ray-train-app-worker-e620ab1b08490de59c8c576eefbf58808288e0ae4678e9a52d3ecb03.log',
+)
+System error: Unable to allocate internal buffer.
+traceback: Traceback (most recent call last):
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 582, in deserialize_objects
+    obj = self._deserialize_object(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 431, in _deserialize_object
+    return self._deserialize_msgpack_data(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 375, in _deserialize_msgpack_data
+    msgpack_data, pickle5_data = split_buffer(data)
+                                 ^^^^^^^^^^^^^^^^^^
+  File "python\\ray\\includes/serialization.pxi", line 205, in ray._raylet.split_buffer
+  File "msgpack/_unpacker.pyx", line 372, in msgpack._cmsgpack.Unpacker.__init__
+MemoryError: Unable to allocate internal buffer.
+
+Unable to allocate internal buffer.
+Traceback (most recent call last):
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 582, in deserialize_objects
+    obj = self._deserialize_object(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 457, in _deserialize_object
+    obj = self._deserialize_msgpack_data(data, metadata_fields)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\ray\_private\serialization.py", line 375, in _deserialize_msgpack_data
+    msgpack_data, pickle5_data = split_buffer(data)
+                                 ^^^^^^^^^^^^^^^^^^
+  File "python\\ray\\includes/serialization.pxi", line 205, in ray._raylet.split_buffer
+  File "msgpack/_unpacker.pyx", line 372, in msgpack._cmsgpack.Unpacker.__init__
+MemoryError: Unable to allocate internal buffer.

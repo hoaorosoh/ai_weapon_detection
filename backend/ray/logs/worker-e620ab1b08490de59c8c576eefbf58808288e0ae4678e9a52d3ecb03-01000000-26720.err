@@ -1,0 +1,80 @@
+:job_id:01000000
+:actor_name:RayTrainWorker
+Setting up process group for: env:// [rank=0, world_size=1]
+Unable to allocate internal buffer.
+('Traceback (most recent call last):\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 582, in deserialize_objects\n    obj = self._deserialize_object(\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 431, in _deserialize_object\n    return self._deserialize_msgpack_data(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 375, in _deserialize_msgpack_data\n    msgpack_data, pickle5_data = split_buffer(data)\n                                 ^^^^^^^^^^^^^^^^^^\n',)('  File "python\\\\ray\\\\includes/serialization.pxi", line 205, in ray._raylet.split_buffer\n',)('  File "msgpack/_unpacker.pyx", line 372, in msgpack._cmsgpack.Unpacker.__init__\n',)('MemoryError: Unable to allocate internal buffer.\n',)
+Unable to allocate internal buffer.
+('Traceback (most recent call last):\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 582, in deserialize_objects\n    obj = self._deserialize_object(\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 431, in _deserialize_object\n    return self._deserialize_msgpack_data(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 375, in _deserialize_msgpack_data\n    msgpack_data, pickle5_data = split_buffer(data)\n                                 ^^^^^^^^^^^^^^^^^^\n',)('  File "python\\\\ray\\\\includes/serialization.pxi", line 205, in ray._raylet.split_buffer\n',)('  File "msgpack/_unpacker.pyx", line 372, in msgpack._cmsgpack.Unpacker.__init__\n',)('MemoryError: Unable to allocate internal buffer.\n',)
+Unable to allocate internal buffer.
+('Traceback (most recent call last):\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 582, in deserialize_objects\n    obj = self._deserialize_object(\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 431, in _deserialize_object\n    return self._deserialize_msgpack_data(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n',)('  File "D:\\programs\\python12\\Lib\\site-packages\\ray\\_private\\serialization.py", line 375, in _deserialize_msgpack_data\n    msgpack_data, pickle5_data = split_buffer(data)\n                                 ^^^^^^^^^^^^^^^^^^\n',)('  File "python\\\\ray\\\\includes/serialization.pxi", line 205, in ray._raylet.split_buffer\n',)('  File "msgpack/_unpacker.pyx", line 372, in msgpack._cmsgpack.Unpacker.__init__\n',)('MemoryError: Unable to allocate internal buffer.\n',)
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\programs\python12\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\torch\__init__.py", line 2273, in <module>
+    from torch import (
+  File "D:\programs\python12\Lib\site-packages\torch\nested\__init__.py", line 21, in <module>
+    from ._internal.nested_tensor import _rebuild_njt, NestedTensor as _NestedTensor
+  File "D:\programs\python12\Lib\site-packages\torch\nested\_internal\nested_tensor.py", line 7, in <module>
+    from torch.nested._internal.nested_int import NestedIntNode
+  File "D:\programs\python12\Lib\site-packages\torch\nested\_internal\nested_int.py", line 4, in <module>
+    from torch.fx.experimental._constant_symnode import ConstantIntNode
+  File "D:\programs\python12\Lib\site-packages\torch\fx\__init__.py", line 88, in <module>
+    from torch.fx._symbolic_trace import (  # noqa: F401
+  File "D:\programs\python12\Lib\site-packages\torch\fx\_symbolic_trace.py", line 24, in <module>
+    from ._lazy_graph_module import _make_graph_module
+  File "D:\programs\python12\Lib\site-packages\torch\fx\_lazy_graph_module.py", line 4, in <module>
+    from torch.fx.graph_module import (
+  File "D:\programs\python12\Lib\site-packages\torch\fx\graph_module.py", line 24, in <module>
+    from .graph import (
+  File "D:\programs\python12\Lib\site-packages\torch\fx\graph.py", line 32, in <module>
+    from .node import _get_qualified_name, _type_repr, Argument, Node, Target
+  File "D:\programs\python12\Lib\site-packages\torch\fx\node.py", line 102, in <module>
+    _ops.aten._assert_async.msg,
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\torch\_ops.py", line 1377, in __getattr__
+    op, overload_names = _get_packet(qualified_op_name, module_name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\programs\python12\Lib\site-packages\torch\_ops.py", line 1402, in _get_packet
+    op, overload_names = torch._C._jit_get_operation(qualname)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError: bad allocation
+forrtl: error (200): program aborting due to control-BREAK event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF9D669A3CD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF9D935E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF9D9D8C3FC  Unknown               Unknown  Unknown
+forrtl: error (200): program aborting due to control-BREAK event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF9D669A3CD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF9D935E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF9D9D8C3FC  Unknown               Unknown  Unknown
+forrtl: error (200): program aborting due to control-BREAK event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF9D669A3CD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF9D935E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF9D9D8C3FC  Unknown               Unknown  Unknown
+forrtl: error (200): program aborting due to control-BREAK event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF9D669A3CD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF9D935E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF9D9D8C3FC  Unknown               Unknown  Unknown
+forrtl: error (200): program aborting due to control-BREAK event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF9D669A3CD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF9D935E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF9D9D8C3FC  Unknown               Unknown  Unknown
+forrtl: error (200): program aborting due to control-BREAK event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF9D669A3CD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF9D935E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF9D9D8C3FC  Unknown               Unknown  Unknown
+forrtl: error (200): program aborting due to control-BREAK event
+Image              PC                Routine            Line        Source             
+KERNELBASE.dll     00007FF9D669A3CD  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF9D935E8D7  Unknown               Unknown  Unknown
+ntdll.dll          00007FF9D9D8C3FC  Unknown               Unknown  Unknown

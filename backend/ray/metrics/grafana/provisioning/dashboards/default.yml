@@ -1,0 +1,9 @@
+
+apiVersion: 1
+
+providers:
+  - name: Ray    # Default dashboards provided by OSS Ray
+    folder: Ray
+    type: file
+    options:
+      path: C:\Users\aditya\AppData\Local\Temp\ray\session_2026-04-21_19-03-55_269901_20668\metrics\grafana\dashboards

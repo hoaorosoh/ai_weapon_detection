@@ -1,0 +1,337 @@
+2026-04-21 19:04:09,581	DEBUG default_autoscaling_coordinator.py:403 -- Cluster resources updated: [{'object_store_memory': 2432909721.0, 'memory': 5676789351.0, 'node:127.0.0.1': 1.0, 'accelerator_type:G': 1.0, 'node:__internal_head__': 1.0, 'CPU': 16.0, 'GPU': 1.0}].
+2026-04-21 19:04:09,653	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:04:09,667	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:04:29,590	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:04:29,906	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:04:49,593	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:04:49,974	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:05:09,594	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:05:10,049	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:05:29,596	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:05:30,089	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:05:49,598	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:05:50,141	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:06:09,599	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:06:10,196	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:06:29,602	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:06:30,263	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:06:49,604	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:06:50,301	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:07:09,607	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:07:10,361	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:07:29,608	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:07:30,422	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:07:49,610	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:07:50,488	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:08:09,615	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:08:10,538	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:08:29,617	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:08:30,599	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:08:49,619	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:08:50,666	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:09:09,621	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:09:10,718	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:09:29,623	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:09:30,770	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:09:49,625	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:09:50,853	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:10:09,627	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:10:10,975	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:10:29,629	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:10:31,039	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:10:49,630	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:10:51,127	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:11:09,631	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:11:11,252	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:11:29,633	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:11:31,337	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:11:49,635	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:11:51,430	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:12:09,638	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:12:11,512	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:12:29,639	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:12:31,596	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:12:49,643	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:12:51,701	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:13:09,644	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:13:11,779	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:13:29,646	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:13:31,877	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:13:49,648	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:13:51,967	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:14:09,649	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:14:12,073	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:14:29,651	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:14:32,158	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:14:49,655	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:14:52,253	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:15:09,656	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:15:12,351	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:15:29,657	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:15:32,445	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:15:49,662	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:15:52,553	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:16:09,666	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:16:12,656	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:16:29,669	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:16:32,745	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:16:49,669	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:16:52,851	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:17:09,671	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:17:12,924	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:17:29,673	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:17:33,003	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:17:49,674	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:17:53,075	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:18:09,676	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:18:13,166	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:18:29,678	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:18:33,245	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:18:49,680	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:18:53,354	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:19:09,683	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:19:13,430	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:19:29,684	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:19:33,500	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:19:49,685	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:19:53,582	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:20:09,687	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:20:13,705	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:20:29,691	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:20:33,804	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:20:49,691	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:20:53,920	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:21:09,694	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:21:14,001	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:21:29,696	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:21:34,064	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:21:49,697	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:21:54,168	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:22:09,699	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:22:14,252	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:22:29,701	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:22:34,361	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:22:49,705	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:22:54,442	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:23:09,705	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:23:14,528	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:23:29,706	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:23:34,596	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:23:49,708	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:23:54,672	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:24:09,711	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:24:14,772	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:24:29,713	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:24:34,867	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:24:49,716	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:24:54,944	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:25:09,718	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:25:15,047	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:25:29,719	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:25:35,141	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:25:49,722	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:25:55,236	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:26:09,723	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:26:15,310	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:26:29,726	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:26:35,390	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:26:49,728	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:26:55,462	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:27:09,729	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:27:15,549	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:27:29,731	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:27:35,599	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:27:49,733	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:27:55,684	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:28:09,734	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:28:15,784	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:28:29,736	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:28:35,874	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:28:49,738	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:28:55,986	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:29:09,740	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:29:16,083	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:29:29,742	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:29:36,172	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:29:49,743	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:29:56,252	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:30:09,744	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:30:16,347	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:30:29,747	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:30:36,432	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:30:49,749	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:30:56,515	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:31:09,750	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:31:16,618	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:31:29,752	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:31:36,674	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].
+2026-04-21 19:31:49,753	DEBUG default_autoscaling_coordinator.py:445 -- Allocated resources:
+Requester train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}]
+
+2026-04-21 19:31:56,744	DEBUG default_autoscaling_coordinator.py:299 -- Received request from train-309530e7b8914774b530ebdff448ce3f: [{'GPU': 1}].

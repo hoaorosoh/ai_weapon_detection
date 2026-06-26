@@ -1,0 +1,4 @@
+data/
+!data/*.yaml
+__pycache__
+temp_files
